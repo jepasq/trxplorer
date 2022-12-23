@@ -3,6 +3,7 @@ tronxplorer -
 === ChangeLog ===
 
 * v0.0.0-1 (23 Dec. 2022 - ???)
-- (1) Initial React app commit
+- (2) Add tronweb dependency
+- Initial React app commit
 
 

@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Troubleshooting
+
+### Querystring issue
+
+Open node_modules/react-scripts/config/webpack.config.js, and in the resolve
+object, add this line :
+
+	fallback: { "querystring": require.resolve("querystring-es3") },
