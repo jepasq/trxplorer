@@ -1,0 +1,26 @@
+						-*-org-*-
+
+
+* v1.0.0
+** v0.1.0
+*** v0.0.1
+
+**** Creating a fresh new react app and add tron web
+:LOGBOOK:
+CLOCK: [2022-12-23 ven. 08:00]--[2022-12-23 ven. 08:05] =>  0:05
+:END:
+
+- [X] Calling this in src is good ? no, in a new one
+  npm init react-app src. No, it creates a second src directory
+- [ ] Initialize git repo
+- [ ] React app works, now add tronweb dependency
+  https://github.com/tronprotocol/tronweb
+  
+**** Test the dapp react demo from tronweb repo
+
+- [ ] Can't, get a opensslErrorStack error
+  Install yarn first =sudo pacman -Syu yarn=
+  then, yarn install
+
+https://github.com/tronprotocol/tronweb/tree/master/demo/tron-dapp-react-demo/src
+
