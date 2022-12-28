@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# TrXplorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A react-base web explorer for the Tron blockchain licensed under *Affero GPL*.
+
+# Running
 
 ## Available Scripts
 

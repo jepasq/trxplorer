@@ -29,3 +29,7 @@ CLOCK: [2022-12-23 ven. 08:00]--[2022-12-23 ven. 08:05] =>  0:05
 
 - [ ] May add a Network status React component
   Some stats from the main node ?
+
+**** TODO Correct project setup
+- [X] Add a suitable license (AGPL ?)
+- [ ] Make this project public when it works  
