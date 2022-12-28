@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+import NetworkStatus from './NetworkStatus';
+
 const TronWeb = require('tronweb');
 
 const mainOptions = {
@@ -14,23 +16,26 @@ const mainOptions = {
 const privateKey = '';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+    return (
+	<div>
+	  <div className="App">
+	  <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <p>
           Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+          </p>
+          <a
+      className="App-link"
+      href="https://reactjs.org"
+      target="_blank"
+      rel="noopener noreferrer"
+          >
           Learn React
-        </a>
-      </header>
-    </div>
+      </a>
+	  </header>
+	  </div>
+	    <NetworkStatus />
+	    </div>
   );
 }
 

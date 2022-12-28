@@ -15,6 +15,7 @@ https://github.com/tronprotocol/tronweb/tree/master/demo/tron-dapp-react-demo/sr
 
 **** TODO Creating a fresh new react app and add tron web
 :LOGBOOK:
+CLOCK: [2022-12-28 mer. 07:25]--[2022-12-28 mer. 07:47] =>  0:22
 CLOCK: [2022-12-23 ven. 08:23]--[2022-12-23 ven. 08:42] =>  0:19
 CLOCK: [2022-12-23 ven. 08:00]--[2022-12-23 ven. 08:05] =>  0:05
 :END:
@@ -29,7 +30,9 @@ CLOCK: [2022-12-23 ven. 08:00]--[2022-12-23 ven. 08:05] =>  0:05
 
 - [ ] May add a Network status React component
   Some stats from the main node ?
-
+  using widget as class name
+  And unit test (actually 2 tests)
+  
 **** TODO Correct project setup
 - [X] Add a suitable license (AGPL ?)
 - [ ] Make this project public when it works  
