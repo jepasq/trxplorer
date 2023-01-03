@@ -3,18 +3,6 @@ import './App.css';
 
 import NetworkStatus from './NetworkStatus';
 
-const TronWeb = require('tronweb');
-
-const mainOptions = {
-  fullNode: 'https://api.nileex.io',
-  solidityNode: 'https://api.nileex.io',
-  eventServer: 'https://api.nileex.io'
-  // fullNode: "http://47.252.3.238:8090",
-  // solidityNode: "http://47.252.3.238:8090",
-  // eventServer: "http://47.252.3.238:8090"
-};
-const privateKey = '';
-
 function App() {
     return (
 	<div>

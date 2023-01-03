@@ -3,7 +3,8 @@ tronxplorer - AGPLv3 - A react-base web explorer for the Tron blockchain.
 === ChangeLog ===
 
 * v0.0.0-1 (23 Dec. 2022 - ???)
-- (4) Add basic NetworkStataus component and tests
+- (5) Better widget styling
+- Add basic NetworkStataus component and tests
 - Add AGPL license file as COPYING
 - Add tronweb dependency
 - Initial React app commit
