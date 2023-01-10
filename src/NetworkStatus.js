@@ -12,13 +12,18 @@ const mainOptions = {
 };
 const privateKey = '';
 
+const handleIsConnected = async event => {
+    const tronweb = new TronWeb(mainOptions);
+    const isConnected = await tronweb.isConnected();
+    console.log(isConnected);
+    return isConnected;
+}
+
 class NetworkStatus extends React.Component {
     render() {
 
-	const tronweb = new TronWeb(mainOptions);
-	console.log(tronweb);
-	
-	return <div className="widget">Network Status</div>;
+	return <div className="widget">Network Status :<br />
+	Connected : {handleIsConnected}</div>
   }
 }
 

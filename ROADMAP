@@ -29,13 +29,19 @@ CLOCK: [2022-12-23 ven. 08:00]--[2022-12-23 ven. 08:05] =>  0:05
 - [X] We have an issue with tronweb
   Module not found: Error: Can't resolve 'querystring' in '.../tronweb/dist'
 
+- [ ] Try to get TRX price via coinmarketcap. Only update React component
+  when promise is finnish https://stackoverflow.com/a/55931416
+  - [ ] Need a free coinAPI. May setup app with an hidden (no committed) file
+
 - [ ] May add a Network status React component
   Some stats from the main node ?
   using widget as class name
   And unit test (actually 2 tests)
   - [ ] We now have the tronweb object, see
     https://developers.tron.network/reference/tronweb-object
-
+  - [ ] Maybe try with isConnected https://developers.tron.network/reference/isconnected
+    Actuallt trying but the promise is waiting
+    
 **** TODO Correct project setup
 - [X] Add a suitable license (AGPL ?)
 - [ ] Make this project public when it works  
