@@ -20,10 +20,23 @@ const handleIsConnected = async event => {
 }
 
 class NetworkStatus extends React.Component {
-    render() {
+    constructor(props) {
+	super(props);
+	this.state = {isConnected: 'null'};
+	// handleIsConnected()
+    }
 
+    async componentDidMount() {
+	// Or handleIsConnected()
+	const tronweb = new TronWeb(mainOptions);
+	tronweb.isConnected().then((val) => {
+	    this.state.isConnected = val;
+	});
+    }
+    
+    render() {
 	return <div className="widget">Network Status :<br />
-	Connected : {handleIsConnected}</div>
+	Connected : {this.state.isConnected}</div>
   }
 }
 
