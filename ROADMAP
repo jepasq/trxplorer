@@ -33,6 +33,8 @@ CLOCK: [2022-12-23 ven. 08:00]--[2022-12-23 ven. 08:05] =>  0:05
   when promise is finnish https://stackoverflow.com/a/55931416
   - [ ] Need a free coinAPI. May setup app with an hidden (no committed) file
 
+- [ ] May run =npm audit fix=
+
 - [ ] May add a Network status React component
   Some stats from the main node ?
   using widget as class name
