@@ -1,6 +1,5 @@
 						-*-org-*-
 
-
 * v1.0.0
 ** v0.1.0
 *** v0.0.1
@@ -15,6 +14,7 @@ https://github.com/tronprotocol/tronweb/tree/master/demo/tron-dapp-react-demo/sr
 
 **** TODO Creating a fresh new react app and add tron web
 :LOGBOOK:
+CLOCK: [2023-01-30 lun. 08:55]--[2023-01-30 lun. 09:10] =>  0:15
 CLOCK: [2023-01-23 lun. 10:26]--[2023-01-23 lun. 10:44] =>  0:18
 CLOCK: [2023-01-03 mar. 08:43]--[2023-01-03 mar. 08:58] =>  0:15
 CLOCK: [2022-12-28 mer. 07:25]--[2022-12-28 mer. 07:47] =>  0:22
@@ -29,10 +29,12 @@ CLOCK: [2022-12-23 ven. 08:00]--[2022-12-23 ven. 08:05] =>  0:05
   https://github.com/tronprotocol/tronweb
 - [X] We have an issue with tronweb
   Module not found: Error: Can't resolve 'querystring' in '.../tronweb/dist'
-
-- [ ] NetworkStatus component may use property as in this example
+- [X] NetworkStatus component may use property as in this example
   https://www.w3schools.com/react/react_lifecycle.asp
 
+- [ ] Network Status connected should holf all 3 values
+  (fullNode/solidityNode/eventServer)
+  
 - [ ] Try to get TRX price via coinmarketcap. Only update React component
   when promise is finnish https://stackoverflow.com/a/55931416
   - [ ] Need a free coinAPI. May setup app with an hidden (no committed) file

@@ -10,14 +10,7 @@ const mainOptions = {
   // solidityNode: "http://47.252.3.238:8090",
   // eventServer: "http://47.252.3.238:8090"
 };
-const privateKey = '';
-
-const handleIsConnected = async event => {
-    const tronweb = new TronWeb(mainOptions);
-    const isConnected = await tronweb.isConnected();
-    console.log(isConnected);
-    return isConnected;
-}
+//const privateKey = '';
 
 class NetworkStatus extends React.Component {
     constructor(props) {
@@ -30,7 +23,9 @@ class NetworkStatus extends React.Component {
 	// Or handleIsConnected()
 	const tronweb = new TronWeb(mainOptions);
 	tronweb.isConnected().then((val) => {
-	    this.state.isConnected = val;
+	    // val.fullNode/solidityNode/eventServer
+	    this.setState({isConnected: val.fullNode.toString()});
+	    console.log(val);
 	});
     }
     
