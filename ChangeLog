@@ -1,0 +1,9 @@
+* v0.0.0-1 (23 Dec. 2022 - 31 Jan. 2023) SLOC 206
+- Correctly print 3 connection states
+- Makes the async componentDidMount function work using setState()
+- Update json5 dependency from 1.0.1 to 1.0.2
+- Better widget styling
+- Add basic NetworkStataus component and tests
+- Add AGPL license file as COPYING
+- Add tronweb dependency
+- Initial React app commit

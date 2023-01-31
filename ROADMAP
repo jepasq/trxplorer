@@ -38,6 +38,8 @@ CLOCK: [2022-12-23 ven. 08:00]--[2022-12-23 ven. 08:05] =>  0:05
 - [ ] Connection status may become a complete react component
   with 'false' in red and maybe a description text on hover
 
+- [ ] Should show progarm version
+
 - [ ] Try to get TRX price via coinmarketcap. Only update React component
   when promise is finnish https://stackoverflow.com/a/55931416
   - [ ] Need a free coinAPI. May setup app with an hidden (no committed) file
