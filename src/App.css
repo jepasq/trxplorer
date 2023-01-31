@@ -42,3 +42,8 @@
     border: 1px solid #000;
     max-width: 40%;
 }
+
+/* connection status span */
+.constatus {
+    margin-left: 15px; 
+}

@@ -15,7 +15,11 @@ const mainOptions = {
 class NetworkStatus extends React.Component {
     constructor(props) {
 	super(props);
-	this.state = {isConnected: 'null'};
+	this.state = {
+	    isFullnodeConnected: 'null',
+	    isSolidityConnected: 'null',
+	    isEventserverConnected: 'null',
+	};
 	// handleIsConnected()
     }
 
@@ -24,14 +28,22 @@ class NetworkStatus extends React.Component {
 	const tronweb = new TronWeb(mainOptions);
 	tronweb.isConnected().then((val) => {
 	    // val.fullNode/solidityNode/eventServer
-	    this.setState({isConnected: val.fullNode.toString()});
+	    this.setState({
+		isFullnodeConnected: val.fullNode.toString(),
+		isSolidityConnected: val.solidityNode.toString(),
+		isEventserverConnected: val.eventServer.toString(),
+	    });
 	    console.log(val);
 	});
     }
     
     render() {
 	return <div className="widget">Network Status :<br />
-	Connected : {this.state.isConnected}</div>
+		   Connected : <br />
+  <div className="constatus">Full node :{this.state.isFullnodeConnected}</div>
+  <div className="constatus">Solidity node :{this.state.isSolidityConnected}</div>
+  <div className="constatus">Event server :{this.state.isEventserverConnected}</div>
+			       </div>
   }
 }
 

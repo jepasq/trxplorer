@@ -1,9 +1,11 @@
 tronxplorer - AGPLv3 - A react-base web explorer for the Tron blockchain.
 
 === ChangeLog ===
+    (8 items by revision)
 
 * v0.0.0-1 (23 Dec. 2022 - ???)
-- (7) Makes the async componentDidMount function work using setState()
+- (8) Correctly print 3 connection states
+- Makes the async componentDidMount function work using setState()
 - Update json5 dependency from 1.0.1 to 1.0.2
 - Better widget styling
 - Add basic NetworkStataus component and tests
