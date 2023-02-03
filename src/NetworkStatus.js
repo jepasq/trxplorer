@@ -1,5 +1,7 @@
 import React from 'react';
 
+import ConnectionStatus from './ConnectionStatus';
+
 const TronWeb = require('tronweb');
 
 const mainOptions = {
@@ -43,7 +45,8 @@ class NetworkStatus extends React.Component {
   <div className="constatus">Full node :{this.state.isFullnodeConnected}</div>
   <div className="constatus">Solidity node :{this.state.isSolidityConnected}</div>
   <div className="constatus">Event server :{this.state.isEventserverConnected}</div>
-			       </div>
+  <ConnectionStatus label="Event server" value={this.state.isEventserverConnected} />
+	       </div>
   }
 }
 
