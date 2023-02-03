@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
@@ -46,4 +46,15 @@
 /* connection status span */
 .constatus {
     margin-left: 15px; 
+}
+
+body {
+  /* background-color: #777;*/
+}
+
+.program-version {
+    width: 100%;
+    background-color: #777;
+    color: #FFE;
+    padding: 10px 20px;
 }

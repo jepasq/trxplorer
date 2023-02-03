@@ -3,6 +3,8 @@ tronxplorer - AGPLv3 - A react-base web explorer for the Tron blockchain.
 === ChangeLog ===
     (8 items by revision)
     SLOC is the result of `sloc src`
+    Update version and revision in src/App.js
 
 * v0.0.0-2 (31 Jan. 2023 - ???) SLOC ???
-- (1) Add static Connection Status component
+- (2) Add program name and version as pseudo-footer
+- Add static Connection Status component

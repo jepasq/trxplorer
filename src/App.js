@@ -3,6 +3,10 @@ import './App.css';
 
 import NetworkStatus from './NetworkStatus';
 
+function ProgramVersion() {
+    return <div className="program-version">TrXplorer v0.0.0-1</div>;
+}
+
 function App() {
     return (
 	<div>
@@ -23,6 +27,7 @@ function App() {
 	  </header>
 	  </div>
 	    <NetworkStatus />
+	    <ProgramVersion />
 	    </div>
   );
 }
