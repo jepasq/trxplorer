@@ -40,13 +40,17 @@ class NetworkStatus extends React.Component {
     }
     
     render() {
-	return <div className="widget">Network Status :<br />
-		   Connected : <br />
-  <div className="constatus">Full node :{this.state.isFullnodeConnected}</div>
-  <div className="constatus">Solidity node :{this.state.isSolidityConnected}</div>
-  <div className="constatus">Event server :{this.state.isEventserverConnected}</div>
-  <ConnectionStatus label="Event server" value={this.state.isEventserverConnected} />
-	       </div>
+	return (
+	    <div className="widget">Network Status :<br />
+		Connected : <br />
+		<div className="constatus">Full node :{this.state.isFullnodeConnected}</div>
+		<ConnectionStatus label="Solidity node"
+				  value={this.state.isSolidityConnected} />
+		
+		<ConnectionStatus label="Event server"
+				  value={this.state.isEventserverConnected} />
+	    </div>
+	)
   }
 }
 

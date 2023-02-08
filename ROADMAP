@@ -14,6 +14,7 @@ https://github.com/tronprotocol/tronweb/tree/master/demo/tron-dapp-react-demo/sr
 
 **** TODO Creating a fresh new react app and add tron web
 :LOGBOOK:
+CLOCK: [2023-02-08 mer. 13:31]--[2023-02-08 mer. 13:35] =>  0:04
 CLOCK: [2023-02-08 mer. 12:43]--[2023-02-08 mer. 12:54] =>  0:11
 CLOCK: [2023-02-03 ven. 08:54]--[2023-02-03 ven. 09:14] =>  0:20
 CLOCK: [2023-02-03 ven. 08:22]--[2023-02-03 ven. 08:43] =>  0:21
@@ -38,12 +39,10 @@ CLOCK: [2022-12-23 ven. 08:00]--[2022-12-23 ven. 08:05] =>  0:05
 - [X] Network Status connected should hold all 3 values
   (fullNode/solidityNode/eventServer)
 - [X] Should show program version
-  
 - [X] Connection status may become a complete react component
   with 'false' in red and maybe a description text on hover
   - [X] Added but the printed value is null (not updated)
-
-- [ ] The ConnectionStatus label is not printed
+- [X] The ConnectionStatus label is not printed. Fixed key was called label
 
 - [ ] Try to get TRX price via coinmarketcap. Only update React component
   when promise is finnish https://stackoverflow.com/a/55931416
