@@ -58,3 +58,11 @@ body {
     color: #FFE;
     padding: 10px 20px;
 }
+
+.text-success {
+    color: #5C5;
+}
+
+.text-danger {
+    color: #F00;
+}

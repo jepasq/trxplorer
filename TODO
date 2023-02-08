@@ -6,5 +6,6 @@ tronxplorer - AGPLv3 - A react-base web explorer for the Tron blockchain.
     Update version and revision in src/App.js
 
 * v0.0.0-2 (31 Jan. 2023 - ???) SLOC ???
-- (2) Add program name and version as pseudo-footer
+- (3) Fix the ConnectionStatus component updaet issue
+- Add program name and version as pseudo-footer
 - Add static Connection Status component
