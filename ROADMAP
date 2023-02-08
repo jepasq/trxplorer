@@ -43,21 +43,26 @@ CLOCK: [2022-12-23 ven. 08:00]--[2022-12-23 ven. 08:05] =>  0:05
   with 'false' in red and maybe a description text on hover
   - [X] Added but the printed value is null (not updated)
 - [X] The ConnectionStatus label is not printed. Fixed key was called label
+- [X] May add a Network status React component
+  Some stats from the main node ?
+  using widget as class name
+  And unit test (actually 2 tests)
+  - [X] We now have the tronweb object, see
+    https://developers.tron.network/reference/tronweb-object
+  - [X] Maybe try with isConnected https://developers.tron.network/reference/isconnected
+    Actuallt trying but the promise is waiting
+
+- [ ] Add a thirs ConnectionStatus widget
+
+- [ ] Add a check address widget
+  An input where we can add a string and a check button
+  see https://developers.tron.network/reference/isaddress
 
 - [ ] Try to get TRX price via coinmarketcap. Only update React component
   when promise is finnish https://stackoverflow.com/a/55931416
   - [ ] Need a free coinAPI. May setup app with an hidden (no committed) file
 
 - [ ] May regulraly run =npm audit fix=
-
-- [ ] May add a Network status React component
-  Some stats from the main node ?
-  using widget as class name
-  And unit test (actually 2 tests)
-  - [ ] We now have the tronweb object, see
-    https://developers.tron.network/reference/tronweb-object
-  - [ ] Maybe try with isConnected https://developers.tron.network/reference/isconnected
-    Actuallt trying but the promise is waiting
     
 **** TODO Correct project setup
 - [X] Add a suitable license (AGPL ?)
