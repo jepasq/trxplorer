@@ -12,7 +12,27 @@
 
 https://github.com/tronprotocol/tronweb/tree/master/demo/tron-dapp-react-demo/src
 
-**** TODO Creating a fresh new react app and add tron web
+**** TODO Continue react app implementation and tron web integration
+:LOGBOOK:
+CLOCK: [2023-02-14 mar. 14:46]--[2023-02-14 mar. 15:05] =>  0:19
+:END:
+- [ ] Test css class of ConnectionStatus widget
+- [ ] Add a three ConnectionStatus widget according to Tron network status
+
+- [ ] Add a check address widget
+  An input where we can add a string and a check button
+  see https://developers.tron.network/reference/isaddress
+
+- [ ] Try to get TRX price via coinmarketcap. Only update React component
+  when promise is finnish https://stackoverflow.com/a/55931416
+  - [ ] Need a free coinAPI. May setup app with an hidden (no committed) file
+
+- [ ] May regulraly run =npm audit fix=
+    
+**** TODO Correct project setup
+- [X] Add a suitable license (AGPL ?)
+- [ ] Make this project public when it works  
+**** DONE Creating a fresh new react app and add tron web
 :LOGBOOK:
 CLOCK: [2023-02-08 mer. 13:31]--[2023-02-08 mer. 13:35] =>  0:04
 CLOCK: [2023-02-08 mer. 12:43]--[2023-02-08 mer. 12:54] =>  0:11
@@ -52,18 +72,3 @@ CLOCK: [2022-12-23 ven. 08:00]--[2022-12-23 ven. 08:05] =>  0:05
   - [X] Maybe try with isConnected https://developers.tron.network/reference/isconnected
     Actuallt trying but the promise is waiting
 
-- [ ] Add a thirs ConnectionStatus widget
-
-- [ ] Add a check address widget
-  An input where we can add a string and a check button
-  see https://developers.tron.network/reference/isaddress
-
-- [ ] Try to get TRX price via coinmarketcap. Only update React component
-  when promise is finnish https://stackoverflow.com/a/55931416
-  - [ ] Need a free coinAPI. May setup app with an hidden (no committed) file
-
-- [ ] May regulraly run =npm audit fix=
-    
-**** TODO Correct project setup
-- [X] Add a suitable license (AGPL ?)
-- [ ] Make this project public when it works  

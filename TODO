@@ -6,7 +6,8 @@ tronxplorer - AGPLv3 - A react-base web explorer for the Tron blockchain.
     Update version and revision in src/App.js
 
 * v0.0.0-2 (31 Jan. 2023 - ???) SLOC ???
-- (5) Remove npm run eject command help from README
+- (6) Start to test ConnectionStatus widget
+- Remove npm run eject command help from README
 - Fix the ConnectionStatus label issue and add a second one
 - Fix the ConnectionStatus component updaet issue
 - Add program name and version as pseudo-footer
