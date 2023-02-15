@@ -7,10 +7,10 @@ test('renders the label', () => {
     expect(linkElement).toBeInTheDocument();
 });
 
-test('is of class danger if value is false', () => {
+test('is of class danger if value is false', async () => {
     render(<ConnectionStatus label="Aze" value="false"/>);
-    const linkElement = screen.getByText(/Aze/i);
-    linkElement.getElementsByClassName('danger').toBeInTheDocument();
+    const linkElement = screen.getByText(/false/i);;
+    expect(linkElement).toHaveClass('text-danger');
 /*    linkElement.childs({e =>
 	console.log(e);
 	})
