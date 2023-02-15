@@ -9,13 +9,22 @@ test('renders the label', () => {
 
 test('is of class danger if value is false', async () => {
     render(<ConnectionStatus label="Aze" value="false"/>);
-    const linkElement = screen.getByText(/false/i);;
-    expect(linkElement).toHaveClass('text-danger');
-/*    linkElement.childs({e =>
-	console.log(e);
-	})
-	*/
-//    console.log(linkElement)
-//    expect(cs.firstChild).toHaveClass('widget')
+
+    const falseElement = screen.getByText(/false/i);;
+    expect(falseElement).toHaveClass('text-danger');
+    expect(falseElement).not.toHaveClass('text-success');
+
+    const trueElement = screen.queryByText(/true/i);;
+    expect(trueElement).not.toBeInTheDocument();
+});
+
+test('is of class success if value is false', async () => {
+    render(<ConnectionStatus label="Aze" value="true"/>);
+    const trueElement = screen.getByText(/true/i);;
+    expect(trueElement).toHaveClass('text-success');
+    expect(trueElement).not.toHaveClass('text-danger');
+
+    const falseElement = screen.queryByText(/false/i);;
+    expect(falseElement).not.toBeInTheDocument();
 });
 
