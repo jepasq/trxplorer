@@ -22,7 +22,7 @@ CLOCK: [2023-02-14 mar. 14:46]--[2023-02-14 mar. 15:05] =>  0:19
 - [ ] We have an async error while running tests : =Cannot log after tests=
   =are done. Did you forget to wait for something async in your test?=
 - [ ] Test css class of ConnectionStatus widget
-- [ ] Add a three ConnectionStatus widget according to Tron network status
+- [ ] Add three ConnectionStatus widget according to Tron network status
 
 - [ ] Add a check address widget
   An input where we can add a string and a check button
