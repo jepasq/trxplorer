@@ -3,7 +3,6 @@
 * v1.0.0
 ** v0.1.0
 *** v0.0.1
-
 **** Test the dapp react demo from tronweb repo
 
 - [ ] Can't, get a opensslErrorStack error
@@ -14,6 +13,7 @@ https://github.com/tronprotocol/tronweb/tree/master/demo/tron-dapp-react-demo/sr
 
 **** TODO Continue react app implementation and tron web integration
 :LOGBOOK:
+CLOCK: [2023-03-21 mar. 05:33]--[2023-03-21 mar. 05:35] =>  0:02
 CLOCK: [2023-03-15 mer. 09:52]--[2023-03-15 mer. 09:56] =>  0:04
 CLOCK: [2023-02-21 mar. 15:33]--[2023-02-21 mar. 16:13] =>  0:40
 CLOCK: [2023-02-15 mer. 14:57]--[2023-02-15 mer. 15:22] =>  0:25
@@ -23,10 +23,10 @@ CLOCK: [2023-02-14 mar. 14:46]--[2023-02-14 mar. 15:05] =>  0:19
 - [ ] We have an async error while running tests : =Cannot log after tests=
   =are done. Did you forget to wait for something async in your test?=
 - [X] Test css class of ConnectionStatus widget
+- [X] Must change title from =React App= to =TrXlorer=
+
 - [ ] Add three ConnectionStatus widget according to Tron network status
   Created but Soldity and eve,t are green and null
-
-- [ ] Must change title from =React App= to =TrXlorer=
 
 - [ ] Add a check address widget
   An input where we can add a string and a check button
