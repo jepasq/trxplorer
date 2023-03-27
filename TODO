@@ -6,7 +6,8 @@ tronxplorer - AGPLv3 - A react-base web explorer for the Tron blockchain.
     Update version and revision in src/App.js
 
 * v0.0.0-3 (15 Feb. 2023 - ???) SLOC ???
-- (5) Add empty CheckAddress widget component
+- (6) Add failing CheckAddress unit tests
+- Add empty CheckAddress widget component
 - Remove React logo from main page
 - Fix and update application's title
 - Upgrade dependency webpack from 5.75.0 to 5.76.1
