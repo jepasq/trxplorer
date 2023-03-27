@@ -1,5 +1,6 @@
 import './App.css';
 
+import CheckAddress from './CheckAddress';
 import NetworkStatus from './NetworkStatus';
 
 function ProgramVersion() {
@@ -21,6 +22,7 @@ function App() {
                Learn React</a>
 	    </header>
 	    </div>
+	    <CheckAddress />
 	    <NetworkStatus />
 	    <ProgramVersion />
 	    </div>

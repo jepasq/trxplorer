@@ -22,14 +22,11 @@ class NetworkStatus extends React.Component {
 	    isSolidityConnected: 'null',
 	    isEventserverConnected: 'null',
 	};
-	// handleIsConnected()
     }
 
     async componentDidMount() {
-	// Or handleIsConnected()
 	const tronweb = new TronWeb(mainOptions);
 	tronweb.isConnected().then((val) => {
-	    // val.fullNode/solidityNode/eventServer
 	    this.setState({
 		isFullnodeConnected: val.fullNode.toString(),
 		isSolidityConnected: val.solidityNode.toString(),
