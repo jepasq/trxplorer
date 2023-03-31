@@ -1,3 +1,13 @@
+* v0.0.0-3 (15 Feb. 2023 - 31 Feb. 2023) SLOC 340
+- Add input and submit button to CheckAddress widget
+- Fix a typo in title's app name
+- Add failing CheckAddress unit tests
+- Add empty CheckAddress widget component
+- Remove React logo from main page
+- Fix and update application's title
+- Upgrade dependency webpack from 5.75.0 to 5.76.1
+- Use more async tests trying to solve 'log after tests' issues
+
 * v0.0.0-2 (31 Jan. 2023 - 15 Feb. 2023) SLOC 299
 - Fully test ConnectionStatus widget
 - Fix the ConnectionStatus false value unit test

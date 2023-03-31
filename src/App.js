@@ -5,7 +5,7 @@ import NetworkStatus from './NetworkStatus';
 
 function ProgramVersion() {
     return <footer>
-	<div className="program-version">TrXplorer v0.0.0-2</div>
+	<div className="program-version">TrXplorer v0.0.0-3</div>
 	</footer>
 }
 

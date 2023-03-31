@@ -2,15 +2,8 @@ tronxplorer - AGPLv3 - A react-base web explorer for the Tron blockchain.
 
 === ChangeLog ===
     (8 items by revision)
-    SLOC is the result of `sloc src`
+    SLOC is the 'Physical' result of npm module 'flosse/sloc' on src/
     Update version and revision in src/App.js
 
-* v0.0.0-3 (15 Feb. 2023 - ???) SLOC ???
-- (8) Add input and submit button to CheckAddress widget
-- Fix a typo in title's app name
-- Add failing CheckAddress unit tests
-- Add empty CheckAddress widget component
-- Remove React logo from main page
-- Fix and update application's title
-- Upgrade dependency webpack from 5.75.0 to 5.76.1
-- Use more async tests trying to solve 'log after tests' issues
+* v0.0.0-4 (31 Feb. 2023 - ???) SLOC ???
+
