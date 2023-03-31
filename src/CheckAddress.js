@@ -13,6 +13,8 @@ class CheckAddress extends React.Component {
 
     render() {
 	return <div>Check Address :
+		   <input type="text"></input>
+		   <button type="button">Check</button>
 		   
 	       </div>
     }

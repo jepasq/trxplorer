@@ -17,6 +17,8 @@ test('has a line input widget', async () => {
     const { container } = render(<CheckAddress />);
     const input = screen.getByText(/Check Address :/i);
     expect(input).toBeInTheDocument();
+
+    console.log("LOG '"+input.innerHTML+"'");
     expect(input).toHaveAttribute('type', 'text');
 });
 
