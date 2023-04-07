@@ -12,10 +12,12 @@ class CheckAddress extends React.Component {
     }
 
     render() {
-	return <div>Check Address :
-		   <input type="text"></input>
-		   <button type="button">Check</button>
-		   
+	return <div className="widget">
+		   <div>Check Address :</div>
+		   <div>
+		       <input type="text"></input>
+		       <button type="button">Check</button>
+		   </div>
 	       </div>
     }
 }
