@@ -9,18 +9,15 @@ test('renders the check address name', async () => {
 
 test('has a check button', async () => {
     render(<CheckAddress />);
-    const checkButton = screen.getByText(/check/i);
+    const checkButton = screen.getByRole('button');
     expect(checkButton).toBeInTheDocument();
 });
 
 test('has a line input widget', async () => {
     const { container } = render(<CheckAddress />);
-    const input = screen.getByText(/Check Address :/i);
+    const input = screen.getByRole('text');
     expect(input).toBeInTheDocument();
 
     console.log("LOG '"+input.innerHTML+"'");
     expect(input).toHaveAttribute('type', 'text');
 });
-
-
-
