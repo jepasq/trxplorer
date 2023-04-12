@@ -40,7 +40,6 @@ class NetworkStatus extends React.Component {
     render() {
 	return (
 	    <div className="widget">Network Status :<br />
-		Connected : <br />
 		<ConnectionStatus label="Full node"
 				  value={this.state.isFullnodeConnected} />
 		
