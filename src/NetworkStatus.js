@@ -33,6 +33,7 @@ class NetworkStatus extends React.Component {
 		isEventserverConnected: val.eventServer.toString(),
 	    });
 	    console.log(val);
+	    console.log(val.solidityNode.toString());
 	});
     }
     
@@ -40,7 +41,9 @@ class NetworkStatus extends React.Component {
 	return (
 	    <div className="widget">Network Status :<br />
 		Connected : <br />
-		<div className="constatus">Full node :{this.state.isFullnodeConnected}</div>
+		<ConnectionStatus label="Full node"
+				  value={this.state.isFullnodeConnected} />
+		
 		<ConnectionStatus label="Solidity node"
 				  value={this.state.isSolidityConnected} />
 		
