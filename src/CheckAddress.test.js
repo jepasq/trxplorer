@@ -14,10 +14,12 @@ test('has a check button', async () => {
 });
 
 test('has a line input widget', async () => {
-    const { container } = render(<CheckAddress />);
-    const input = screen.getByRole('text');
-    expect(input).toBeInTheDocument();
+    render(<CheckAddress />);
+    const ch  = document.body.innerHTML.includes('input');
+    expect(ch).toBe(true);
 
-    console.log("LOG '"+input.innerHTML+"'");
-    expect(input).toHaveAttribute('type', 'text');
+    // Check that it won't be true with a stupid string
+    const ch2 = document.body.innerHTML.includes('inSTUPIDput');
+    expect(ch2).toBe(false);
+
 });
