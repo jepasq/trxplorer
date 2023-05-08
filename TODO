@@ -6,7 +6,8 @@ tronxplorer - AGPLv3 - A react-base web explorer for the Tron blockchain.
     Update version and revision in src/App.js
 
 * v0.0.0-4 (31 Feb. 2023 - ???) SLOC ???
-- (4) Check CheckAddress input text with document.body
+- (5) Resize header and remove default react content
+- Check CheckAddress input text with document.body
 - Full node is now a ConnectionStatus widget
 - Improve CheckAddress and becomes a widget
 - Improve CheckAddress test using GetByRole
