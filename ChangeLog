@@ -1,3 +1,13 @@
+* v0.0.0-4 (31 Feb. 2023 - 08 May 2023) SLOC 354
+- CheckAddress widget has a tronweb instance
+- Handle check button event
+- Fix a css warning using flex-start value
+- Resize header and remove default react content
+- Check CheckAddress input text with document.body
+- Full node is now a ConnectionStatus widget
+- Improve CheckAddress and becomes a widget
+- Improve CheckAddress test using GetByRole
+
 * v0.0.0-3 (15 Feb. 2023 - 31 Feb. 2023) SLOC 340
 - Add input and submit button to CheckAddress widget
 - Fix a typo in title's app name
