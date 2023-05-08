@@ -9,14 +9,23 @@ class CheckAddress extends React.Component {
 	    isSolidityConnected: 'null',
 	    isEventserverConnected: 'null',
 	};
+
+	// This binding is necessary to make `this` work in the callback
+	this.checkAddr = this.checkAddr.bind(this);
     }
 
+    checkAddr() {
+	console.log("Check address!");
+    }
+    
     render() {
 	return <div className="widget">
 		   <div>Check Address :</div>
 		   <div>
 		       <input type="text"></input>
-		       <button type="button">Check</button>
+		       <button type="button" onClick={this.checkAddr}>
+			   Check
+		       </button>
 		   </div>
 	       </div>
     }
