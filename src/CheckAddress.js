@@ -1,6 +1,13 @@
 // A widget used to check if a tron adress is valid
 import React from 'react';
 
+const TronWeb = require('tronweb');
+const mainOptions = {
+  fullNode: 'https://api.nileex.io',
+  solidityNode: 'https://api.nileex.io',
+  eventServer: 'https://api.nileex.io'
+};
+
 class CheckAddress extends React.Component {
     constructor(props) {
 	super(props);
@@ -8,6 +15,7 @@ class CheckAddress extends React.Component {
 	    isFullnodeConnected: 'null',
 	    isSolidityConnected: 'null',
 	    isEventserverConnected: 'null',
+	    checkResult: 'tested!'
 	};
 
 	// This binding is necessary to make `this` work in the callback
@@ -15,7 +23,11 @@ class CheckAddress extends React.Component {
     }
 
     checkAddr() {
-	console.log("Check address!");
+	const tronweb = new TronWeb(mainOptions);
+	console.log(tronweb.isAddress("aze"));
+	this.setState({
+	    checkResult: "aze"
+	});
     }
     
     render() {
@@ -26,6 +38,7 @@ class CheckAddress extends React.Component {
 		       <button type="button" onClick={this.checkAddr}>
 			   Check
 		       </button>
+		       <span>{this.state.checkResult}</span>
 		   </div>
 	       </div>
     }
