@@ -13,6 +13,7 @@ https://github.com/tronprotocol/tronweb/tree/master/demo/tron-dapp-react-demo/sr
 
 **** TODO Continue react app implementation and tron web integration
 :LOGBOOK:
+CLOCK: [2023-05-16 mar. 05:20]--[2023-05-16 mar. 05:58] =>  0:38
 CLOCK: [2023-05-08 lun. 10:51]--[2023-05-08 lun. 11:07] =>  0:16
 CLOCK: [2023-05-08 lun. 10:42]--[2023-05-08 lun. 10:49] =>  0:07
 CLOCK: [2023-05-08 lun. 09:50]--[2023-05-08 lun. 10:03] =>  0:13
@@ -35,12 +36,11 @@ CLOCK: [2023-02-14 mar. 14:46]--[2023-02-14 mar. 15:05] =>  0:19
 - [X] Must change title from =React App= to =TrXlorer=
 - [X] Typo in app title
 - [X] Must resize app header in .css
-
-- [-] Add a check address widget
+- [X] Add a check address widget
   An input where we can add a string and a check button
   see https://developers.tron.network/reference/isaddress
   - [X] Handle check button event
-  - [ ] Show check result : must get input content first
+  - [X] Show check result : must get input content first
 
 - [ ] We have an async error while running tests : =Cannot log after tests=
   =are done. Did you forget to wait for something async in your test?=
