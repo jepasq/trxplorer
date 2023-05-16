@@ -3,6 +3,7 @@
 * v1.0.0
 ** v0.1.0
 *** v0.0.1
+**** May generate and keep up to date API documentation
 **** Test the dapp react demo from tronweb repo
 
 - [ ] Can't, get a opensslErrorStack error
