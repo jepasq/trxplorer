@@ -1,12 +1,8 @@
 // A widget used to check if a tron adress is valid
 import React from 'react';
+import { mainOptions } from './TronConsts.js';
 
 const TronWeb = require('tronweb');
-const mainOptions = {
-  fullNode: 'https://api.nileex.io',
-  solidityNode: 'https://api.nileex.io',
-  eventServer: 'https://api.nileex.io'
-};
 
 class CheckAddress extends React.Component {
     constructor(props) {

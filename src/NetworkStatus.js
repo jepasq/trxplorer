@@ -1,13 +1,9 @@
 import React from 'react';
 
 import ConnectionStatus from './ConnectionStatus';
+import { mainOptions } from './TronConsts.js';
 
 const TronWeb = require('tronweb');
-const mainOptions = {
-  fullNode: 'https://api.nileex.io',
-  solidityNode: 'https://api.nileex.io',
-  eventServer: 'https://api.nileex.io'
-};
 
 class NetworkStatus extends React.Component {
     constructor(props) {
