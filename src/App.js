@@ -2,6 +2,7 @@ import './App.css';
 
 import CheckAddress from './CheckAddress';
 import NetworkStatus from './NetworkStatus';
+import ToFrom from './ToFrom';
 
 function ProgramVersion() {
     return <footer>
@@ -19,6 +20,7 @@ function App() {
 	status and check if an address is valid!
 	    </div>
 	    </div>
+	    <ToFrom />
 	    <CheckAddress />
 	    <NetworkStatus />
 	    <ProgramVersion />
