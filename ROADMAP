@@ -14,6 +14,7 @@ https://github.com/tronprotocol/tronweb/tree/master/demo/tron-dapp-react-demo/sr
 
 **** TODO Continue react app implementation and tron web integration
 :LOGBOOK:
+CLOCK: [2023-05-24 mer. 03:42]--[2023-05-24 mer. 03:51] =>  0:09
 CLOCK: [2023-05-16 mar. 06:04]--[2023-05-16 mar. 06:09] =>  0:05
 CLOCK: [2023-05-16 mar. 05:20]--[2023-05-16 mar. 05:58] =>  0:38
 CLOCK: [2023-05-08 lun. 10:51]--[2023-05-08 lun. 11:07] =>  0:16
@@ -47,7 +48,8 @@ CLOCK: [2023-02-14 mar. 14:46]--[2023-02-14 mar. 15:05] =>  0:19
   When creating tronweb object both in CheckAddress and NetworkStatus we
   have simple copy of  mainOptions constantes : fix that.
   - [X] May try in TronConsts.js
-  
+- [X] A render-based unit test is failing
+
 - [ ] We have an async error while running tests : =Cannot log after tests=
   =are done. Did you forget to wait for something async in your test?=
 

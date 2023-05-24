@@ -14,6 +14,10 @@ function App() {
 	    <div>
 	    <div className="App">
 	    <header className="App-header">TrXplorer</header>
+	    <div>
+	    Welcome to <em>TrxPlorer</em>. Here you can check the TRX network
+	status and check if an address is valid!
+	    </div>
 	    </div>
 	    <CheckAddress />
 	    <NetworkStatus />
