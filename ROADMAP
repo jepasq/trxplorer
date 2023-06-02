@@ -14,6 +14,7 @@ https://github.com/tronprotocol/tronweb/tree/master/demo/tron-dapp-react-demo/sr
 
 **** TODO Continue react app implementation and tron web integration
 :LOGBOOK:
+CLOCK: [2023-06-02 ven. 05:39]--[2023-06-02 ven. 05:52] =>  0:13
 CLOCK: [2023-05-24 mer. 04:16]--[2023-05-24 mer. 04:27] =>  0:11
 CLOCK: [2023-05-24 mer. 03:42]--[2023-05-24 mer. 03:51] =>  0:09
 CLOCK: [2023-05-16 mar. 06:04]--[2023-05-16 mar. 06:09] =>  0:05
@@ -54,7 +55,8 @@ CLOCK: [2023-02-14 mar. 14:46]--[2023-02-14 mar. 15:05] =>  0:19
 - [-] Could add a toHex/fromHex widget : a ToFrom widget
   https://developers.tron.network/reference/address
   - [X] Create an empty component
-  - [ ] Add unit tests
+  - [X] Add unit tests
+  - [ ] Implement basic even handling  
   
 - [ ] Get account details through the getAccount function
   https://developers.tron.network/reference/getaccount
