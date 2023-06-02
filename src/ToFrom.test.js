@@ -12,3 +12,14 @@ test('is of class widget', async () => {
     expect(container.firstChild).toHaveClass('widget')
 });
 
+test('has a convert button', async () => {
+    render(<ToFrom />);
+
+    // May be here from a copy/past from CheckAddress widget
+    const checkBtn = screen.queryByText(/Check/i);
+    expect(checkBtn).not.toBeInTheDocument();
+
+    const convertBtn = screen.getByText(/Convert/i);
+    expect(convertBtn).toBeInTheDocument();
+});
+

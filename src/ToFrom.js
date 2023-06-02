@@ -21,7 +21,7 @@ class ToFrom extends React.Component {
 			      onChange={evt => this.changeAddrValue(evt)}>
 		       </input>
 		       <button type="button" onClick={this.checkAddr}>
-			   Check
+			   Convert
 		       </button>
 		       <br />
 		       <div>{this.state.checkResult}</div>
