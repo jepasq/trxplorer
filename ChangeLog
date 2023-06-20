@@ -1,3 +1,13 @@
+* v0.0.0-5 (08 May 2023 - 20 Jun. 2023) SLOC 441
+- Fix appname case in welcome message
+- Add a button-related unit test to converter widget
+- Add ToFrom widget unit tests
+- Make this project public at github
+- Add an empty ToFrom address converter widget
+- Fix a render-based unit test is failing
+- Tron constants defined only once
+- Make the CheckAddress widget show result
+
 * v0.0.0-4 (31 Feb. 2023 - 08 May 2023) SLOC 354
 - CheckAddress widget has a tronweb instance
 - Handle check button event
