@@ -3,7 +3,7 @@ import App from './App';
 
 test('renders Welcome to TrxPlorer', async () => {
     render(<App />);
-    const linkElement = screen.getByText(/Welcome to TrxPlorer/i);
+    const linkElement = screen.getByText(/Welcome to TrXplorer/i);
     expect(linkElement).toBeInTheDocument();
 });
 

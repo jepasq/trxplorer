@@ -16,7 +16,7 @@ function App() {
 	    <div className="App">
 	    <header className="App-header">TrXplorer</header>
 	    <div>
-	    Welcome to <em>TrxPlorer</em>. Here you can check the TRX network
+	    Welcome to <em>TrXplorer</em>. Here you can check the TRX network
 	status and check if an address is valid!
 	    </div>
 	    </div>
