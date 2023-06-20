@@ -20,6 +20,8 @@ class ToFrom extends React.Component {
 		       <input type="text"
 			      onChange={evt => this.changeAddrValue(evt)}>
 		       </input>
+		       <option>
+		       </option>
 		       <button type="button" onClick={this.checkAddr}>
 			   Convert
 		       </button>
@@ -29,6 +31,6 @@ class ToFrom extends React.Component {
 	       </div>
     }
 
-    }
+}
 
 export default ToFrom;

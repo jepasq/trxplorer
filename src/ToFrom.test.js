@@ -23,3 +23,11 @@ test('has a convert button', async () => {
     expect(convertBtn).toBeInTheDocument();
 });
 
+// From https://stackoverflow.com/a/54250578
+test('has at least one option HTML element', async () => {
+    const {container } = render(<ToFrom />);
+    const opt = document.querySelector('option');
+    expect(opt).toBeInTheDocument();
+});
+
+
