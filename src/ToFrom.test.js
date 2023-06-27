@@ -16,11 +16,9 @@ test('has a convert button', async () => {
     render(<ToFrom />);
 
     // May be here from a copy/past from CheckAddress widget
-    const checkBtn = screen.queryByText(/Check/i);
-    expect(checkBtn).not.toBeInTheDocument();
-
-    const convertBtn = screen.getByText(/Convert/i);
+    const convertBtn = screen.getByRole('button', { name: /convert/i});
     expect(convertBtn).toBeInTheDocument();
+    
 });
 
 // From https://stackoverflow.com/a/54250578

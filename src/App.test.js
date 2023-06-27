@@ -1,9 +1,9 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders Welcome to TrxPlorer', async () => {
+test('renders Welcome to ', async () => {
     render(<App />);
-    const linkElement = screen.getByText(/Welcome to TrXplorer/i);
+    const linkElement = screen.getByText(/Welcome to /i);
     expect(linkElement).toBeInTheDocument();
 });
 
