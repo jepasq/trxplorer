@@ -31,10 +31,10 @@ test('has at least one option HTML element', async () => {
 test('has options HTML elements with given IDs', async () => {
     const dom = render(<ToFrom />);
 
-    const o1 = document.getElementById(dom.container, 'fromtype');
+    const o1 = dom.container.querySelector('#fromtype');
     expect(o1).toBeInTheDocument();
 
-    const o2 = document.getElementById(dom.container, 'totype');
+    const o2 = dom.container.querySelector('#totype');
     expect(o2).toBeInTheDocument();
 });
 

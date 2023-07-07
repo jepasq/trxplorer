@@ -6,7 +6,8 @@ tronxplorer - AGPLv3 - A react-based web explorer for the Tron blockchain.
     Update version and revision in src/App.js
 
 * v0.0.0-6 (20 Jun. 2023 - ???) SLOC ???
-- (6) Add ToFrom label and options elements
+- (7) Fix Id-based options elements ToFrom unit tests
+- Add ToFrom label and options elements
 - Upgrade multiple babel-related dependencies 
 - Trying to manually change nth-check to >=2.0.1 to fix github warning
 - Fix convert button ToFrom unit test
