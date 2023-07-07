@@ -23,9 +23,20 @@ test('has a convert button', async () => {
 
 // From https://stackoverflow.com/a/54250578
 test('has at least one option HTML element', async () => {
-    const {container } = render(<ToFrom />);
+    const { container } = render(<ToFrom />);
     const opt = document.querySelector('option');
     expect(opt).toBeInTheDocument();
 });
+
+test('has options HTML elements with given IDs', async () => {
+    const dom = render(<ToFrom />);
+
+    const o1 = document.getElementById(dom.container, 'fromtype');
+    expect(o1).toBeInTheDocument();
+
+    const o2 = document.getElementById(dom.container, 'totype');
+    expect(o2).toBeInTheDocument();
+});
+
 
 

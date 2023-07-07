@@ -14,6 +14,7 @@ https://github.com/tronprotocol/tronweb/tree/master/demo/tron-dapp-react-demo/sr
 
 **** TODO Continue react app implementation and tron web integration
 :LOGBOOK:
+CLOCK: [2023-07-07 ven. 14:02]--[2023-07-07 ven. 14:25] =>  0:23
 CLOCK: [2023-06-27 mar. 08:19]--[2023-06-27 mar. 08:26] =>  0:07
 CLOCK: [2023-06-20 mar. 06:37]--[2023-06-20 mar. 06:51] =>  0:14
 CLOCK: [2023-06-20 mar. 05:39]--[2023-06-20 mar. 05:49] =>  0:10
@@ -60,8 +61,8 @@ CLOCK: [2023-02-14 mar. 14:46]--[2023-02-14 mar. 15:05] =>  0:19
   https://developers.tron.network/reference/address
   - [X] Create an empty component
   - [X] Add unit tests
-  - [ ] Add two <option> HTML elements 'to' and 'from'
-    Add unit tests first
+  - [X] Add two <option> HTML elements 'to' and 'from'
+  - [ ] Now fix ToFrom unit tests
   - [ ] Implement basic even handling
 
 - [ ] There is a warning about a babel dependency we need to add when

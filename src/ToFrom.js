@@ -20,8 +20,19 @@ class ToFrom extends React.Component {
 		       <input type="text"
 			      onChange={evt => this.changeAddrValue(evt)}>
 		       </input>
-		       <option>
-		       </option>
+		       <br />
+		       <label htmlFor="fromtype">From :</label>
+		       <select id="fromtype">
+			   <option value="hex">Hexstring</option>
+			   <option value="b58">Base58</option>
+		       </select>
+		       <br />
+		       <label htmlFor="totype">To :</label>
+		       <select id="totype">
+			   <option value="hex">Hexstring</option>
+			   <option value="b58">Base58</option>
+		       </select>
+		       <br />
 		       <button type="button" onClick={this.checkAddr}>
 			   Convert
 		       </button>
