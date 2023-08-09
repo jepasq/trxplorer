@@ -40,10 +40,10 @@ class CheckAddress extends React.Component {
 		<span>The addresse is <strong>not valid</strong>.</span>
 	    )
 	}
-	    
-	    this.setState({
-		checkResult: newSpan
-	    });
+	
+	this.setState({
+	    checkResult: newSpan
+	});
     }
     
     render() {

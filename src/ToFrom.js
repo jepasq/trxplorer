@@ -11,8 +11,22 @@ class ToFrom extends React.Component {
 	};
 
 	// This binding is necessary to make `this` work in the callback
-//	this.checkAddr = this.checkAddr.bind(this);
+	this.convert = this.convert.bind(this);
     }
+
+    changeAddrValue(evt) {
+	const val = evt.target.value;
+	this.setState({
+	    address: val
+	});
+    }
+    
+    convert() {
+	this.setState({
+	    address: 'new address!'
+	});
+    }
+    
     render() {
 	return <div className="widget">
 		   <div>Address converter :</div>
@@ -33,7 +47,7 @@ class ToFrom extends React.Component {
 			   <option value="b58">Base58</option>
 		       </select>
 		       <br />
-		       <button type="button" onClick={this.checkAddr}>
+		       <button type="button" onClick={this.convert}>
 			   Convert
 		       </button>
 		       <br />
