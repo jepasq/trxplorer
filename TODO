@@ -5,12 +5,5 @@ tronxplorer - AGPLv3 - A react-based web explorer for the Tron blockchain.
     SLOC is the 'Physical' result of npm module 'flosse/sloc' on src/
     Update version and revision in src/App.js
 
-* v0.0.0-6 (20 Jun. 2023 - ???) SLOC ???
-- (8) Start to implement ToFrom widget event and close related ROADMAP section
-- Fix Id-based options elements ToFrom unit tests
-- Add ToFrom label and options elements
-- Upgrade multiple babel-related dependencies 
-- Trying to manually change nth-check to >=2.0.1 to fix github warning
-- Fix convert button ToFrom unit test
-- Upgrade multiple dependencies
-- Add a ToFrom option element unit test
+* v0.0.0-7 (09 Aug. 2023 - ???) SLOC ???
+
