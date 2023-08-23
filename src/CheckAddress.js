@@ -22,7 +22,8 @@ class CheckAddress extends React.Component {
     changeAddrValue(evt) {
 	const val = evt.target.value;
 	this.setState({
-	    address: val
+	    address: val,
+	    checkResult: 'Waiting...',
 	});
     }
     

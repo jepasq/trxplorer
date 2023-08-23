@@ -12,7 +12,10 @@
 
 https://github.com/tronprotocol/tronweb/tree/master/demo/tron-dapp-react-demo/src
 
-**** TODO New widget implementation    
+**** TODO New widget implementation
+:LOGBOOK:
+CLOCK: [2023-08-23 mer. 06:43]--[2023-08-23 mer. 07:36] =>  0:53
+:END:
 see https://developers.tron.network/reference/address
 
 - [ ] ToFrom widget event implementation
@@ -35,6 +38,8 @@ see https://developers.tron.network/reference/address
 
 - [ ] May regulraly run =npm audit fix=
     15 Mar. 2023 : webpack from 5.75.0 to 5.76.1
+**** Github actions may run unit tests
+- [ ] May check for a first try
 **** DONE Continue react app implementation and tron web integration
 :LOGBOOK:
 CLOCK: [2023-07-07 ven. 16:31]--[2023-07-07 ven. 16:42] =>  0:11
