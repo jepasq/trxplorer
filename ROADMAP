@@ -41,6 +41,7 @@ see https://developers.tron.network/reference/address
 **** Github actions may run unit tests
 - [X] Replace npm in matrix from 14.x with 20.x
 - [ ] May check for a first try
+- [ ] How to handle README's querystring fix in CI ?  
 **** DONE Continue react app implementation and tron web integration
 :LOGBOOK:
 CLOCK: [2023-07-07 ven. 16:31]--[2023-07-07 ven. 16:42] =>  0:11

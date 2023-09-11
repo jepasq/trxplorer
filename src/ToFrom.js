@@ -21,24 +21,30 @@ class ToFrom extends React.Component {
     }
 
     changeAddrValue(evt) {
-	const val = evt.target.value;
-	this.setState({
-	    address: val
-	});
+	if (evt) {
+	    const val = evt.target.value;
+	    this.setState({
+		address: val
+	    });
+	}
     }
 
     changeTo(evt) {
-	const val = evt.target.value;
-	this.setState({
-	    to: val
-	});
+	if (evt) {
+	    const val = evt.target.value;
+	    this.setState({
+		to: val
+	    });
+	}
     }
 
     changeFrom(evt) {
-	const val = evt.target.value;
-	this.setState({
-	   from: val
-	});
+	if (evt) {
+	    const val = evt.target.value;
+	    this.setState({
+		from: val
+	    });
+	}
     }
     
     convert() {
