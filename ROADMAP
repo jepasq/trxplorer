@@ -38,8 +38,11 @@ see https://developers.tron.network/reference/address
 
 - [ ] May regulraly run =npm audit fix=
     15 Mar. 2023 : webpack from 5.75.0 to 5.76.1
+**** [fix_CantResolveCryptoTronweb] We have a new issue when running
+- [ ] See console output for that
 **** Github actions may run unit tests
 - [X] Replace npm in matrix from 14.x with 20.x
+- [ ] browser/crypto in package.json
 - [ ] May check for a first try
 - [ ] How to handle README's querystring fix in CI ?  
 **** DONE Continue react app implementation and tron web integration
