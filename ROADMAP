@@ -39,7 +39,12 @@ see https://developers.tron.network/reference/address
 - [ ] May regulraly run =npm audit fix=
     15 Mar. 2023 : webpack from 5.75.0 to 5.76.1
 **** [fix_CantResolveCryptoTronweb] We have a new issue when running
+:LOGBOOK:
+CLOCK: [2023-10-27 ven. 02:12]--[2023-10-27 ven. 02:43] =>  0:31
+:END:
 - [ ] See console output for that
+  Trying to add fallback ="crypto": require.resolve("crypto-browserify")=
+  in node_module/tronweb's config.webpack
 **** Github actions may run unit tests
 - [X] Replace npm in matrix from 14.x with 20.x
 - [ ] browser/crypto in package.json
