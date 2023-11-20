@@ -1,0 +1,12 @@
+--- node_modules/tronweb/webpack.config.js       2023-11-20 01:41:22.222621939 +0100
++++ node_modules/tronweb/webpack.config.js   2023-10-27 01:56:03.262216781 +0200
+@@ -40,7 +40,8 @@
+         ],
+         fallback: {
+             'querystring-es3': require.resolve("querystring-es3"),
+-            'events': require.resolve("events/")
++            'events': require.resolve("events/"),
++           "crypto": require.resolve("crypto-browserify")
+         },
+     },
+     devtool: 'source-map',
