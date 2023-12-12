@@ -6,7 +6,7 @@ import ToFrom from './ToFrom';
 
 function ProgramVersion() {
     return <footer>
-	<div className="program-version">TrXplorer v0.0.0-6</div>
+	<div className="program-version">TrXplorer v0.0.0-7</div>
 	</footer>
 }
 
