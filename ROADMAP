@@ -45,6 +45,7 @@ see https://developers.tron.network/reference/address
 - [ ] How to handle README's querystring fix in CI ?  
 **** TODO [fix_CantResolveCryptoTronweb] We have a new issue when running
 :LOGBOOK:
+CLOCK: [2023-12-22 ven. 09:14]--[2023-12-22 ven. 09:22] =>  0:08
 CLOCK: [2023-12-05 mar. 07:03]--[2023-12-05 mar. 07:14] =>  0:11
 CLOCK: [2023-11-20 lun. 01:40]--[2023-11-20 lun. 01:47] =>  0:07
 CLOCK: [2023-10-27 ven. 02:12]--[2023-10-27 ven. 02:43] =>  0:31
@@ -54,6 +55,7 @@ CLOCK: [2023-10-27 ven. 02:12]--[2023-10-27 ven. 02:43] =>  0:31
   in node_module/tronweb's config.webpack
   - [ ] Add patches files in patches/ =can't find file to patch at input line 3=
     Try to apply patch after npm ci (modules installation)
+    - [ ] Check if node_modules/ dir is really installed
 **** DONE Continue react app implementation and tron web integration
 :LOGBOOK:
 CLOCK: [2023-07-07 ven. 16:31]--[2023-07-07 ven. 16:42] =>  0:11
