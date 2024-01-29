@@ -38,13 +38,9 @@ see https://developers.tron.network/reference/address
 
 - [ ] May regulraly run =npm audit fix=
     15 Mar. 2023 : webpack from 5.75.0 to 5.76.1
-**** Github actions may run unit tests
-- [X] Replace npm in matrix from 14.x with 20.x
-- [X] browser/crypto in package.json
-- [ ] May check for a first try
-- [ ] How to handle README's querystring fix in CI ?  
 **** TODO [fix_CantResolveCryptoTronweb] We have a new issue when running
 :LOGBOOK:
+CLOCK: [2024-01-29 lun. 12:55]--[2024-01-29 lun. 12:59] =>  0:04
 CLOCK: [2023-12-22 ven. 09:14]--[2023-12-22 ven. 09:22] =>  0:08
 CLOCK: [2023-12-05 mar. 07:03]--[2023-12-05 mar. 07:14] =>  0:11
 CLOCK: [2023-11-20 lun. 01:40]--[2023-11-20 lun. 01:47] =>  0:07
@@ -60,6 +56,11 @@ CLOCK: [2023-10-27 ven. 02:12]--[2023-10-27 ven. 02:43] =>  0:31
    =in '/trxplorer/trxplorer/node_modules/tronweb/dist'= on CI
    - [ ] Trying to install dependencies after patch
      Can't find file to patch. Try to run twice
+**** DONE Github actions may run unit tests
+- [X] Replace npm in matrix from 14.x with 20.x
+- [X] browser/crypto in package.json
+- [X] May check for a first try
+- [X] How to handle README's querystring fix in CI ?  
 **** DONE Continue react app implementation and tron web integration
 :LOGBOOK:
 CLOCK: [2023-07-07 ven. 16:31]--[2023-07-07 ven. 16:42] =>  0:11
