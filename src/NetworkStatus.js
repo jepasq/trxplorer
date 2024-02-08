@@ -5,6 +5,9 @@ import { mainOptions } from './TronConsts.js';
 
 const TronWeb = require('tronweb');
 
+/** An component used to show the connection status of the Tron network.
+ *
+ */
 class NetworkStatus extends React.Component {
     constructor(props) {
 	super(props);

@@ -4,6 +4,12 @@
 ** v0.1.0
 *** v0.0.1
 **** May generate and keep up to date API documentation
+:LOGBOOK:
+CLOCK: [2024-02-08 jeu. 14:11]--[2024-02-08 jeu. 14:24] =>  0:13
+:END:
+- [ ] Try =jsdoc src=
+  see in out/ directory
+- [ ] Must find a way tyo list undocumented members  
 **** Test the dapp react demo from tronweb repo
 
 - [ ] Can't, get a opensslErrorStack error

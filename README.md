@@ -71,4 +71,8 @@ Open `node_modules/react-scripts/config/webpack.config.js`, and in the
 
 	fallback: { "querystring": require.resolve("querystring-es3") },
 
+Or apply the provided patch :
+
+	patch -p0 < patches/tronweb-cryptofallback.patch
+
 This issue actuelly make *unit tests* fail.

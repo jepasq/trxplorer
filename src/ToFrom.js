@@ -7,6 +7,9 @@ import { mainOptions } from './TronConsts.js';
  *
  */
 class ToFrom extends React.Component {
+    /** The component constructor
+      *
+      */
     constructor(props) {
 	super(props);
 	this.state = {
