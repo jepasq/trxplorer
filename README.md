@@ -1,6 +1,7 @@
 # TrXplorer
 
-A react-base web explorer for the Tron blockchain licensed under *Affero GPL*.
+A *react*-based web explorer for the *Tron* blockchain licensed under 
+*Affero GPL*.
 
 # Running
 
@@ -69,3 +70,5 @@ Open `node_modules/react-scripts/config/webpack.config.js`, and in the
 **resolve** object, add this line :
 
 	fallback: { "querystring": require.resolve("querystring-es3") },
+
+This issue actuelly make *unit tests* fail.

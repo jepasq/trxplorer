@@ -12,6 +12,11 @@
 
 https://github.com/tronprotocol/tronweb/tree/master/demo/tron-dapp-react-demo/src
 
+**** TODO Fix crypto module issue on CI
+- [ ] =Module not found: Error: Can't resolve 'crypto'=
+   =in '/trxplorer/trxplorer/node_modules/tronweb/dist'= on CI
+   - [ ] Trying to install dependencies after patch
+     Can't find file to patch. Try to run twice
 **** TODO New widget implementation
 :LOGBOOK:
 CLOCK: [2023-08-23 mer. 06:43]--[2023-08-23 mer. 07:36] =>  0:53
@@ -38,7 +43,7 @@ see https://developers.tron.network/reference/address
 
 - [ ] May regulraly run =npm audit fix=
     15 Mar. 2023 : webpack from 5.75.0 to 5.76.1
-**** TODO [fix_CantResolveCryptoTronweb] We have a new issue when running
+**** DONE We have a new issue when running
 :LOGBOOK:
 CLOCK: [2024-01-29 lun. 12:55]--[2024-01-29 lun. 12:59] =>  0:04
 CLOCK: [2023-12-22 ven. 09:14]--[2023-12-22 ven. 09:22] =>  0:08
@@ -52,10 +57,6 @@ CLOCK: [2023-10-27 ven. 02:12]--[2023-10-27 ven. 02:43] =>  0:31
   - [X] Add patches files in patches/ =can't find file to patch at input line 3=
     Try to apply patch after npm ci (modules installation)
     - [X] Check if node_modules/ dir is really installed
-- [ ] =Module not found: Error: Can't resolve 'crypto'=
-   =in '/trxplorer/trxplorer/node_modules/tronweb/dist'= on CI
-   - [ ] Trying to install dependencies after patch
-     Can't find file to patch. Try to run twice
 **** DONE Github actions may run unit tests
 - [X] Replace npm in matrix from 14.x with 20.x
 - [X] browser/crypto in package.json
