@@ -3,6 +3,21 @@
 A *react*-based web explorer for the *Tron* blockchain licensed under 
 *Affero GPL*.
 
+# Dependencies
+
+To install dependencies on *Manjaro* :
+
+	#pamac install nvm
+
+Here, you may need to enter some command manually 
+(`. /usr/share/nvm/init-nvm.sh` for example) to make nvm runnable, then :
+
+	nvm install node
+	
+Now you can install project dependencies :
+
+	npm install
+
 # Running
 
 ## Available Scripts

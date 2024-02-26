@@ -6,7 +6,8 @@ tronxplorer - AGPLv3 - A react-based web explorer for the Tron blockchain.
     Update version and revision in src/App.js
 
 * v0.0.0-8 (12 Dec. 2023 - ???) SLOC ???
-- (4) Add crypto fallback patch reference to README
+- (5) Add a README section on npm/dependencies installation on manjaro
+- Add crypto fallback patch reference to README
 - Upgrade follow-redirects dependency
 - Trying to install deps after patch
 - Upgrade css-tools and tronweb dependencies
