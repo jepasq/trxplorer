@@ -23,11 +23,14 @@ https://github.com/tronprotocol/tronweb/tree/master/demo/tron-dapp-react-demo/sr
    =in '/trxplorer/trxplorer/node_modules/tronweb/dist'= on CI
    - [ ] Trying to install dependencies after patch
      Can't find file to patch. Try to run twice
-**** TODO New widget implementation
+**** TODO [fix_Axios_1_6_7] New widget implementation
 :LOGBOOK:
+CLOCK: [2024-03-11 lun. 02:43]--[2024-03-11 lun. 02:46] =>  0:03
 CLOCK: [2023-08-23 mer. 06:43]--[2023-08-23 mer. 07:36] =>  0:53
 :END:
 see https://developers.tron.network/reference/address
+
+- [ ] Fix xurrent tests or start due to previous upgrade
 
 - [ ] ToFrom widget event implementation
 
@@ -49,6 +52,7 @@ see https://developers.tron.network/reference/address
 
 - [ ] May regulraly run =npm audit fix=
     15 Mar. 2023 : webpack from 5.75.0 to 5.76.1
+    11 Mar. 2024 : axios-1.6.7, tronweb, follow-redirects and others. Some issues.
 **** DONE We have a new issue when running
 :LOGBOOK:
 CLOCK: [2024-01-29 lun. 12:55]--[2024-01-29 lun. 12:59] =>  0:04
