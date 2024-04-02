@@ -31,11 +31,13 @@ CLOCK: [2023-08-23 mer. 06:43]--[2023-08-23 mer. 07:36] =>  0:53
 :END:
 see https://developers.tron.network/reference/address
 
-- [ ] Fix current tests or start due to previous upgrade
+- [X] Fix current tests or start due to previous upgrade
   It is due to an axios update, try to upghrade jest to v0.29+
   https://stackoverflow.com/a/74020536
   =npm install jest@29.7 --save= but can't : react script is based on v27.5.1
-  
+  - [X] Trying to update package.json's test rule from =react-scripts test=
+    then =npm install @noble/secp256k1@1.7.1=
+    
 - [ ] ToFrom widget event implementation
 
 - [ ] There is a warning about a babel dependency we need to add when

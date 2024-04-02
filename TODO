@@ -6,7 +6,8 @@ tronxplorer - AGPLv3 - A react-based web explorer for the Tron blockchain.
     Update version and revision in src/App.js
 
 * v0.0.0-8 (12 Dec. 2023 - ???) SLOC ???
-- (7) Some tests on jest and axios dependencies import/require issue
+- (8) Just fixed last upgrade issue using new test command and secp256k
+- Some tests on jest and axios dependencies import/require issue
 - Upgrade axios, tronweb, follow-redirects and other dependencies
 - Add a README section on npm/dependencies installation on manjaro
 - Add crypto fallback patch reference to README
