@@ -1,3 +1,13 @@
+* v0.0.0-8 (12 Dec. 2023 - 02 Apr. 2024) SLOC 521
+- Just fixed last upgrade issue using new test command and secp256k
+- Some tests on jest and axios dependencies import/require issue
+- Upgrade axios, tronweb, follow-redirects and other dependencies
+- Add a README section on npm/dependencies installation on manjaro
+- Add crypto fallback patch reference to README
+- Upgrade follow-redirects dependency
+- Trying to install deps after patch
+- Upgrade css-tools and tronweb dependencies
+
 * v0.0.0-7 (09 Aug. 2023 - 12 Dec. 2023) SLOC 515
 - Add 22.x and 18.x to CI test matrix
 - Trying to apply patch after dependencies install
