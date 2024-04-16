@@ -4,13 +4,13 @@ import { mainOptions } from './TronConsts.js';
 
 const TronWeb = require('tronweb');
 
+/** A React component used to check is an adress is a Tron one
+ *
+ */
 class CheckAddress extends React.Component {
     constructor(props) {
 	super(props);
 	this.state = {
-	    isFullnodeConnected: 'null',
-	    isSolidityConnected: 'null',
-	    isEventserverConnected: 'null',
 	    checkResult: 'Waiting...',
 	    address: ''
 	};

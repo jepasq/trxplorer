@@ -19,10 +19,11 @@
     "crypto": false
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --transformIgnorePatterns \"node_modules/(?!axios)/\"",
-    "eject": "react-scripts eject"
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --transformIgnorePatterns \"node_modules/(?!axios)/\"",
+      "eject": "react-scripts eject",
+      "doc": "jsdoc src/ src/Mainpage.md"
   },
   "eslintConfig": {
     "extends": [

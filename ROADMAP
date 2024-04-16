@@ -5,11 +5,15 @@
 *** v0.0.1
 **** May generate and keep up to date API documentation
 :LOGBOOK:
+CLOCK: [2024-04-16 mar. 12:50]--[2024-04-16 mar. 12:58] =>  0:08
 CLOCK: [2024-02-08 jeu. 14:11]--[2024-02-08 jeu. 14:24] =>  0:13
 :END:
-- [ ] Try =jsdoc src=
+     Actually run =npm run doc=.
+
+- [X] Try =jsdoc src=
   see in out/ directory
-- [ ] Must find a way tyo list undocumented members  
+- [ ] Must find a way to list undocumented members
+- [ ] See =DeprecationWarning: The `punycode` module is deprecated. ...=
 **** Test the dapp react demo from tronweb repo
 
 - [ ] Can't, get a opensslErrorStack error
@@ -23,7 +27,7 @@ https://github.com/tronprotocol/tronweb/tree/master/demo/tron-dapp-react-demo/sr
    =in '/trxplorer/trxplorer/node_modules/tronweb/dist'= on CI
    - [ ] Trying to install dependencies after patch
      Can't find file to patch. Try to run twice
-**** TODO [fix_Axios_1_6_7] New widget implementation
+**** TODO New widget implementation
 :LOGBOOK:
 CLOCK: [2024-03-21 jeu. 05:19]--[2024-03-21 jeu. 05:31] =>  0:12
 CLOCK: [2024-03-11 lun. 02:43]--[2024-03-11 lun. 02:46] =>  0:03
@@ -57,8 +61,10 @@ see https://developers.tron.network/reference/address
   - [ ] Need a free coinAPI. May setup app with an hidden (no committed) file
 
 - [ ] May regulraly run =npm audit fix=
-    15 Mar. 2023 : webpack from 5.75.0 to 5.76.1
-    11 Mar. 2024 : axios-1.6.7, tronweb, follow-redirects and others. Some issues.
+    - 15 Mar. 2023 : webpack from 5.75.0 to 5.76.1
+    - 11 Mar. 2024 : axios-1.6.7, tronweb, follow-redirects and others.
+      Some issues.
+    - 16 Apr. 2024 : no upgrade available.
 **** DONE We have a new issue when running
 :LOGBOOK:
 CLOCK: [2024-01-29 lun. 12:55]--[2024-01-29 lun. 12:59] =>  0:04
