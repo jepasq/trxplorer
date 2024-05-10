@@ -21,13 +21,14 @@ class NetworkStatus extends React.Component {
     async componentDidMount() {
 	const tronweb = new TronWeb(mainOptions);
 	tronweb.isConnected().then((val) => {
+	    /*	    console.log(val);
+		    console.log(val.solidityNode.toString());
+	    */
 	    this.setState({
 		isFullnodeConnected: val.fullNode.toString(),
 		isSolidityConnected: val.solidityNode.toString(),
 		isEventserverConnected: val.eventServer.toString(),
 	    });
-	    console.log(val);
-	    console.log(val.solidityNode.toString());
 	});
     }
     
