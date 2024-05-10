@@ -65,6 +65,7 @@ see https://developers.tron.network/reference/address
     - 11 Mar. 2024 : axios-1.6.7, tronweb, follow-redirects and others.
       Some issues.
     - 16 Apr. 2024 : no upgrade available.
+    - 10 May 2024 : ejs from 3.1.9 to 3.1.10
 **** DONE We have a new issue when running
 :LOGBOOK:
 CLOCK: [2024-01-29 lun. 12:55]--[2024-01-29 lun. 12:59] =>  0:04
