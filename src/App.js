@@ -6,6 +6,9 @@ import ToFrom from './ToFrom';
 
 /** A very simple footer showing current application version
  *
+ * The version is hardcoded and must be updated manually for each application
+ * revision.
+ *
  */
 function ProgramVersion() {
     return <footer>
@@ -13,7 +16,9 @@ function ProgramVersion() {
 	</footer>
 }
 
-/** The main Application markup
+/** The main Application component.
+ *
+ * No logic here, only a render-like function containing main App div markup.
  *
  */
 function App() {
