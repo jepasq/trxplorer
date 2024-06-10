@@ -6,7 +6,8 @@ tronxplorer - AGPLv3 - A react-based web explorer for the Tron blockchain.
     Update version and revision in src/App.js
 
 * v0.0.0-9 (02 Apr. 2024 - ???) SLOC ???
-- (4) Slightly improve App and Mainpage documentation
+- (5) Use GENERATE_SOURCEMAP=false in package.json
+- Slightly improve App and Mainpage documentation
 - Fix the NetworkStatus logging async issue in tests
 - Upgrade ejs from 3.1.9 to 3.1.10
 - Add a npm doc command and homepage

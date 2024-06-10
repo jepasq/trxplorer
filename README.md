@@ -98,4 +98,9 @@ Or apply the provided patch :
 
 	patch -p0 < patches/tronweb-cryptofallback.patch
 
-This issue actuelly make *unit tests* fail.
+This issue actually makes *unit tests* fail. The patch fixes this.
+
+### GENERATE_SOURCEMAP envvar
+
+To avoid 60+ warnings when starting server,  `GENERATE_SOURCEMAP=false` has 
+been added to the start script rule in the *package.json* file.
