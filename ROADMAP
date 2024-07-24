@@ -23,13 +23,9 @@ CLOCK: [2024-02-08 jeu. 14:11]--[2024-02-08 jeu. 14:24] =>  0:13
 
 https://github.com/tronprotocol/tronweb/tree/master/demo/tron-dapp-react-demo/src
 
-**** TODO Fix crypto module issue on CI
-- [ ] =Module not found: Error: Can't resolve 'crypto'=
-   =in '/trxplorer/trxplorer/node_modules/tronweb/dist'= on CI
-   - [ ] Trying to install dependencies after patch
-     Can't find file to patch. Try to run twice
 **** TODO New widget implementation
 :LOGBOOK:
+CLOCK: [2024-07-24 mer. 07:12]
 CLOCK: [2024-05-10 ven. 19:22]--[2024-05-10 ven. 19:30] =>  0:08
 CLOCK: [2024-03-21 jeu. 05:19]--[2024-03-21 jeu. 05:31] =>  0:12
 CLOCK: [2024-03-11 lun. 02:43]--[2024-03-11 lun. 02:46] =>  0:03
@@ -68,7 +64,14 @@ see https://developers.tron.network/reference/address
       Some issues.
     - 16 Apr. 2024 : no upgrade available.
     - 10 May 2024 : ejs from 3.1.9 to 3.1.10
-    - 05 Jul. 2024 : braces from 3.0.2 to 3.0.3, ethers, ws and more  
+    - 05 Jul. 2024 : braces from 3.0.2 to 3.0.3, ethers, ws and more
+    - 24 Jul. 2024 : none  
+**** TODO Fix crypto module issue on CI
+- [ ] =Module not found: Error: Can't resolve 'crypto'=
+   =in '/trxplorer/trxplorer/node_modules/tronweb/dist'= on CI
+   - [ ] Trying to install dependencies after patch
+     Can't find file to patch. Try to run twice
+   - [ ] This issue still hits the dev journey, even after patch  
 **** DONE We have a new issue when running
 :LOGBOOK:
 CLOCK: [2024-01-29 lun. 12:55]--[2024-01-29 lun. 12:59] =>  0:04
