@@ -68,11 +68,18 @@ see https://developers.tron.network/reference/address
     - 05 Jul. 2024 : braces from 3.0.2 to 3.0.3, ethers, ws and more
     - 24 Jul. 2024 : none  
 **** TODO [fix_CryptoModule] Fix crypto module issue on CI/locally
-- [ ] =Module not found: Error: Can't resolve 'crypto'=
+:LOGBOOK:
+CLOCK: [2024-09-10 mar. 08:41]--[2024-09-10 mar. 09:14] =>  0:33
+:END:
+- [-] =Module not found: Error: Can't resolve 'crypto'=
    =in '/trxplorer/trxplorer/node_modules/tronweb/dist'= on CI
-   - [ ] Trying to install dependencies after patch
-     Can't find file to patch. Try to run twice
-   - [ ] This issue still hits the dev journey, even after patch  
+  - [X] Trying to install dependencies after patch
+    Can't find file to patch. Try to run twice
+  - [ ] This issue still hits the dev journey, even after patch
+    In the meanwhile, =npm audit fix= to upgrade dependencies
+    But all tests are passing successfully
+    | 10 Sep. 2024 | acorn-import-assertions, qs, ms, enhance-resolve etc... |
+    |              |                                                         |
 **** DONE We have a new issue when running
 :LOGBOOK:
 CLOCK: [2024-01-29 lun. 12:55]--[2024-01-29 lun. 12:59] =>  0:04
