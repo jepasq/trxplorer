@@ -69,6 +69,7 @@ see https://developers.tron.network/reference/address
     - 24 Jul. 2024 : none  
 **** TODO [fix_CryptoModule] Fix crypto module issue on CI/locally
 :LOGBOOK:
+CLOCK: [2024-10-07 lun. 13:24]--[2024-10-07 lun. 13:44] =>  0:20
 CLOCK: [2024-09-10 mar. 08:41]--[2024-09-10 mar. 09:14] =>  0:33
 :END:
 - [-] =Module not found: Error: Can't resolve 'crypto'=
@@ -78,8 +79,9 @@ CLOCK: [2024-09-10 mar. 08:41]--[2024-09-10 mar. 09:14] =>  0:33
   - [ ] This issue still hits the dev journey, even after patch
     In the meanwhile, =npm audit fix= to upgrade dependencies
     But all tests are passing successfully
-    | 10 Sep. 2024 | acorn-import-assertions, qs, ms, enhance-resolve etc... |
-    |              |                                                         |
+    | 10 Sep. 2024 | acorn-import-assertions, qs, ms, enhance-resolve etc... |           |
+    | 07 Oct. 2024 | react-refresh-webpack-plugin, express, finalhandler     | Unchanged |
+    |              |                                                         |           |
 **** DONE We have a new issue when running
 :LOGBOOK:
 CLOCK: [2024-01-29 lun. 12:55]--[2024-01-29 lun. 12:59] =>  0:04
