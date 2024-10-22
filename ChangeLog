@@ -1,3 +1,13 @@
+* v0.0.0-9 (02 Apr. 2024 - 22 Oct. 2024) SLOC 540
+- New update cycle without crypto module issue resolution
+- New audit fix call to upgrade some dependencuies (x2)
+- npm audit fix package.json file indent
+- Use GENERATE_SOURCEMAP=false in package.json
+- Slightly improve App and Mainpage documentation
+- Fix the NetworkStatus logging async issue in tests
+- Upgrade ejs from 3.1.9 to 3.1.10
+- Add a npm doc command and homepage
+
 * v0.0.0-8 (12 Dec. 2023 - 02 Apr. 2024) SLOC 521
 - Just fixed last upgrade issue using new test command and secp256k
 - Some tests on jest and axios dependencies import/require issue
