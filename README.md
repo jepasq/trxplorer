@@ -18,6 +18,12 @@ Now you can install project dependencies :
 
 	npm install
 
+To upgrade available dependencies in `package-lock.json` file, please run :
+
+	npm audit fix
+	
+Then, please run unit tests and test the app before committing to git repo.	
+
 # Running
 
 ## Available Scripts
