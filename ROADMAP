@@ -69,6 +69,7 @@ see https://developers.tron.network/reference/address
     - 24 Jul. 2024 : none  
 **** TODO [fix_CryptoModule] Fix crypto module issue on CI/locally
 :LOGBOOK:
+CLOCK: [2024-12-05 jeu. 10:50]--[2024-12-05 jeu. 10:53] =>  0:03
 CLOCK: [2024-11-11 lun. 13:17]--[2024-11-11 lun. 13:31] =>  0:14
 CLOCK: [2024-10-22 mar. 10:14]--[2024-10-22 mar. 10:28] =>  0:14
 CLOCK: [2024-10-07 lun. 13:24]--[2024-10-07 lun. 13:44] =>  0:20
@@ -84,7 +85,9 @@ CLOCK: [2024-09-10 mar. 08:41]--[2024-09-10 mar. 09:14] =>  0:33
     | 10 Sep. 2024 | acorn-import-assertions,  etc...    |           |
     | 07 Oct. 2024 | react-refresh-webpack-plugin etc... | Unchanged |
     | 22 Oct. 2024 | cookie and express                  | Unchanged |
-    | 11 Nov. 2024 | elliptic http-proxy-middleware      |           |
+    | 11 Nov. 2024 | elliptic http-proxy-middleware      | Unchanged |
+    | 05 Dec. 2024 | cross-spawn from 7.0.3 to 7.0.6     | Unchanged |
+    |              |                                     |           |
 **** DONE We have a new issue when running
 :LOGBOOK:
 CLOCK: [2024-01-29 lun. 12:55]--[2024-01-29 lun. 12:59] =>  0:04
